@@ -43,16 +43,16 @@ Please note that while "EzTransitions" excels at simplifying transition effects,
 + You can customize the transition's properties in the Inspector while the TransitionOverlay node is selected, allowing you to tailor the visual effect to your specific needs.
 
 ## Functions
-### plugin_toggle_debug_mode(enabled: bool) -> void:
+### EzTransitions.plugin_toggle_debug_mode(enabled: bool) -> void:
 + This function toggles the debug mode of the plugin, allowing you to enable or disable debug messages in the engine's output.
 + When enabled, the plugin will provide debugging information to help you track and diagnose any issues during development.
 
-### plugin_toggle_transitions(enabled: bool) -> void:
+### EzTransitions.plugin_toggle_transitions(enabled: bool) -> void:
 + This function enables or disables transitions in general.
 + When transitions are disabled, any scene changes will occur instantly without transition effects.
 + Enabling transitions restores the visual transition effects configured using the plugin.
 
-### plugin_set_speed_scale(new_speed_scale: float) -> void:
+### EzTransitions.plugin_set_speed_scale(new_speed_scale: float) -> void:
 + Use this function to adjust the speed at which transitions occur.
 + By providing a `new_speed_scale` value, you can control the rate at which transition effects, such as fades or slides, take place.
 + Lower values slow down the transitions, while higher values speed them up, allowing you to fine-tune the timing of your game's visual effects.
